@@ -18,5 +18,25 @@
         "input": "minarose",
         "algorithm": "sha384",
         "hash": "5d84e64ba3e8bf71fa9f7b9ade222d5dbbd4aac112f0c1c68ab60b7106cc158a9a958b7830c7fa2fab780d0827cb2d1c"
+    },
+    {
+        "input": "foo",
+        "algorithm": "sha256",
+        "hash": "2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae"
+    },
+    {
+        "input": "foo",
+        "algorithm": "sha1",
+        "hash": "0beec7b5ea3f0fdbc95d0dd47f3c5bc275da8a33"
+    },
+    {
+        "input": "foo",
+        "algorithm": "sha256",
+        "hash": "2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae"
+    },
+    {
+        "input": "bar",
+        "algorithm": "md5",
+        "hash": "37b51d194a7513e45b56f6524f2d51f2"
     }
 ]

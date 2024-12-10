@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 
 # Fichier JSON pour stocker les résultats
-DATA_FILE = 'results.json'
+DATA_FILE = '/data/results.json'
 
 # Liste des algorithmes de hachage disponibles
 HASH_ALGORITHMS = ['sha256', 'sha1', 'md5', 'sha384', 'sha512']
