@@ -1,0 +1,12 @@
+[
+    {
+        "input": "jhdgihd",
+        "algorithm": "sha256",
+        "hash": "0897c395f443d430dd1305ee4fea3a63106f30b9e754639e8f44aff420b76dbf"
+    },
+    {
+        "input": "vsv",
+        "algorithm": "sha1",
+        "hash": "7785efe820c08830c4cccd99ac46110d8c98bc7c"
+    }
+]

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checksum Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Checksum Calculator</h1>
+    </header>
+    
+    <main>
+        <section class="form-section">
+            <form method="post">
+                <label for="input_str">Enter a string:</label>
+                <input type="text" id="input_str" name="input_str" required>
+                
+                <label for="algorithm">Select an algorithm:</label>
+                <select id="algorithm" name="algorithm">
+                    {% for algo in algorithms %}
+                    <option value="{{ algo }}">{{ algo | upper }}</option>
+                    {% endfor %}
+                </select>
+                
+                <button type="submit">Calculate Checksum</button>
+            </form>
+        </section>
+        
+        <section class="results-section">
+            <h2>Results</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Input</th>
+                        <th>Algorithm</th>
+                        <th>Checksum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for result in results %}
+                    <tr>
+                        <td>{{ result.input }}</td>
+                        <td>{{ result.algorithm }}</td>
+                        <td>{{ result.hash }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    
+</body>
+</html>
+
