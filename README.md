@@ -39,7 +39,9 @@ Cette application permet aux utilisateurs de :
    mkdir web-application  
    cd web-application  
 
-    Créez un environnement virtuel et activez-le :
+
+  Créez un environnement virtuel et activez-le :
+  
 
 python -m venv venv  
 source venv/bin/activate  
