@@ -8,5 +8,15 @@
         "input": "vsv",
         "algorithm": "sha1",
         "hash": "7785efe820c08830c4cccd99ac46110d8c98bc7c"
+    },
+    {
+        "input": "universal",
+        "algorithm": "sha256",
+        "hash": "a9fd078562420a276b6902ca3d8bf583c0366e38af72e23be99b16035a76b39a"
+    },
+    {
+        "input": "minarose",
+        "algorithm": "sha384",
+        "hash": "5d84e64ba3e8bf71fa9f7b9ade222d5dbbd4aac112f0c1c68ab60b7106cc158a9a958b7830c7fa2fab780d0827cb2d1c"
     }
 ]
