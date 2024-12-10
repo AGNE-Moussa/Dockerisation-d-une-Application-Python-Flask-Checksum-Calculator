@@ -101,6 +101,8 @@ Docker Compose simplifie la gestion d'applications multi-conteneurs.
 docker-compose up -d
 ```
 
+
+On peut exécuter tout avec la commande :  docker-compose up --build
 ## Conclusion
 
 En suivant ce guide, vous aurez une application Flask fonctionnelle, containerisée avec Docker, et facilement déployable sur n'importe quel environnement. Pour toute question ou contribution, n'hésitez pas à ouvrir une issue ou soumettre une pull request.
