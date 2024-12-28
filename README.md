@@ -2,7 +2,7 @@
 
 ## Introduction
 
-La conteneurisation avec Docker a transformé le déploiement d'applications en offrant un environnement cohérent du développement à la production. Ce guide détaille le processus de dockerisation d'une application Python Flask appelée **Checksum Calculator**. 
+La conteneurisation avec Docker a transformé le déploiement d'applications en offrant un environnement cohérent du développement à la production. Ce guide détaille le processus de dockerisation d'une application Python Flask appelée **Checksum Calculator**.
 
 Cette application permet aux utilisateurs de :
 - Saisir une chaîne de caractères
