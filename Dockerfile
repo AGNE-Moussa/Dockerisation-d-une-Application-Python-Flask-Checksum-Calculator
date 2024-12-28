@@ -11,5 +11,7 @@ COPY . .
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+VOLUME [ "/data" ]
+
 # Définir la commande de démarrage
 CMD ["python", "app.py"]
